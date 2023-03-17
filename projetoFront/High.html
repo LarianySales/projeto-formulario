@@ -34,18 +34,22 @@
     </h2>
   
     <div class="inputs" id="forms">
-          
-    <input type="text" id="email" class="in1 border border-none" placeholder="E-mail">
+      <div id="error"></div>
+     
+   <form id="form" action="/" method="get">
+           
+    <input type="email" id="email" class="in1 border border-none" placeholder="E-mail">
     <!-- <img class="catinha" src="./carta.svg" alt=""> -->
 
-    <input type="password" id="senha" class="in2 border border-none" placeholder="*******">
+    <input type="password" id="password" class="in2 border border-none" placeholder="Senha">
     </div>
 
+   </form>
 
   <div>
     <button class="b1 border border-none ">Login</button>
 
-    <button class="git text-center border border-none"><img src="./img/GithubLogo.svg" alt="">Github</button>
+    <button type="submit" class="git text-center border border-none"><img src="./img/GithubLogo.svg" alt="">Github</button>
   
   </div>
 
@@ -54,6 +58,7 @@
 <hr>
 
    </header> 
+   <script src="./js/app.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>
