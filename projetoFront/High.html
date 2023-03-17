@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./CSS/style.css">
-    <title>Forms</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Forms</title>
 </head>
+
 <body>
-   <header>
+  <header>
     <h1>HighSchool</h1>
     <div class="elipse"></div>
 
     <div class="imagens">
-        <img class="img1" src="./img/Rectangle 3.png" alt="">
+      <img class="img1" src="./img/Rectangle 3.png" alt="">
 
-        <img class="img3" src="./img/Rectangle 4.png" alt="">
+      <img class="img3" src="./img/Rectangle 4.png" alt="">
 
-        <img class="img2" src="./img/Rectangle 5.png" alt="">
+      <img class="img2" src="./img/Rectangle 5.png" alt="">
 
     </div>
 
-    <div class="form">
+    <div class="form1">
     </div>
 
     <h2 class="log">
-        Login
+      Login
     </h2>
-  
-    <div class="inputs" id="forms">
+
+    <div class="inputs">
+
+        <form id="form" action="/" method="get">
       <div id="error"></div>
-     
-   <form id="form" action="/" method="get">
-           
-    <input type="email" id="email" class="in1 border border-none" placeholder="E-mail">
-    <!-- <img class="catinha" src="./carta.svg" alt=""> -->
 
-    <input type="password" id="password" class="in2 border border-none" placeholder="Senha">
+
+          <div class="email">
+            <input id="email" type="email" class="in1 border border-none" placeholder="E-mail">
+          </div>
+          <!-- <img class="catinha" src="./carta.svg" alt=""> -->
+
+          <div class="password">
+            <input id="password" type="password" class="in2 border border-none" placeholder="*******">
+          </div>
+
+          <div>
+            <button type="submit" class="b1 border border-none ">Login</button>
+      
+            <button class="git text-center border border-none"><img src="./img/GithubLogo.svg" alt="">Github</button>
+      
+          </div>
+        </form>
     </div>
+ 
+    <p class="eO">ou entre com</p>
 
-   </form>
+    <hr>
 
-  <div>
-    <button class="b1 border border-none ">Login</button>
+  </header>
 
-    <button type="submit" class="git text-center border border-none"><img src="./img/GithubLogo.svg" alt="">Github</button>
-  
-  </div>
 
-  <p class="eO">ou entre com</p>
-
-<hr>
-
-   </header> 
-   <script src="./js/app.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script> -->
+    <script src="./js/app.js"></script>
 
 </body>
+
 </html>

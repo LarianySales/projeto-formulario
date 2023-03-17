@@ -151,7 +151,7 @@ h1 {
     padding-left: 35px;
 }
 
-.form {
+.form1 {
     position: absolute;
     width: 480px;
     height: 476px;
@@ -241,4 +241,10 @@ font-size: 20px;
 line-height: 24px;
 
 color: #000000;
+}
+#error{
+
+
+ color: #FFFFFF;
+ 
 }

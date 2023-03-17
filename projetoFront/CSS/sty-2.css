@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #111827;
+}
+
+main section header {
+    display: flex;
+    align-items: center;
+}
+
+main section header .title p{
+    font-size: 6.4rem;
+}
+
+main section header .full-stop{
+    background-color: #0073b0;
+    width: 1.2rem;
+    height: 1.2rem;
+
+    border-radius: 50%;
+
+    margin-bottom: -3.6rem;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    
+    padding: 0 16vw;
+    min-height: 100vh;
+}
+
